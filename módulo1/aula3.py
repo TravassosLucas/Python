@@ -1,4 +1,6 @@
-numero1 = input ('Digite um número')
-numero2 = input ('Digite o outro número')
+numero1 = int (input ('Digite um número'))
+numero2 = int (input ('Digite o outro número'))
 
-print (numero1  , '+' , numero2)
+resultado = numero1 + numero2
+
+print (f'O Resultado entre {numero1} e {numero2} é igual a {resultado}')
