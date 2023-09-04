@@ -1,10 +1,11 @@
 n = input('Digite algo:')
 
 print(f'Irei descrever sua frase "{n}" ! ')
-print('é número ou letra.', n .isalnum())
+print(f'É Alfanumérico?{n}', n .isalnum())
 print('Sua frase é', type(n))
-print( 'é numero' , n .isnumeric())
+print(f'é numero{n}' , n .isnumeric())
 print( 'é texto' , n .isalpha())
 print( 'é tudo minusculo' , n .islower()) 
 print( 'Há espaço nessa frase?' , n .isspace())
 print( 'Está em Maisculo esta frase?' , n .isupper())
+print(f'Está capitalizada? {n} ' , n .istitle())
