@@ -1,6 +1,6 @@
 from math import pow, sqrt
-n1 = int(input('Digite o cateto oposto: '))
-n2 = int(input('Digite o cateto adjacente: '))
+n1 = float(input('Digite o cateto oposto: '))
+n2 = float(input('Digite o cateto adjacente: '))
 
 r = pow(n1, 2) + pow(n2, 2)
 
