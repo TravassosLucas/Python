@@ -1,6 +1,6 @@
 import math
 
-a = float(input('Digite o valor do ângulo'))
+a = float(input('Digite o valor do ângulo: '))
 
 a1 = math.radians(a)
  
